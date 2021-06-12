@@ -28,7 +28,7 @@
   * Double DQN
   * Dueling DDQN
   * A2C , A3C 
-  * ....
+  * ....  (목표 : https://shippauljobs.blogspot.com/2021/04/reinforcement-learning.html)
 
 ---
 
