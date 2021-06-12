@@ -42,8 +42,8 @@ import util
 
 #data = pd.read_csv("/home/ubuntu/USER_SKKU/leeinsung/RL_team_project/input/Data/Stocks/a.us.txt")
 ################## 상대 경로
-# - 임시로 절대 경로.. 지정
-# - 리눅스에서의 상대경로는 어떻게 지정?? 나중에
+# 임시로 절대 경로.. 지정
+# 임의의 주식 데이터 가져 오기.
 data = pd.read_csv("/home/ubuntu/USER_SKKU/leeinsung/RL_team_project/input/Data/Stocks/aapl.us.txt")  
 
 data['Date'] = pd.to_datetime(data['Date'])
@@ -63,7 +63,6 @@ len(train), len(test)
 #######################################################################
 #
 Q, total_losses, total_rewards = train_dqn(trader_env(train))   
-
 plot_train_test_by_q(trader_env(train), trader_env(test), Q, 'DQN')
 
 #######################################################################
