@@ -1,6 +1,3 @@
-#from Util import *
-#from DQN import *
-
 #######################################################################
 # 과제: Deep Reinforcement Learning on Stock Data
 #######################################################################
@@ -38,10 +35,9 @@ import util
 #print(check_output(["ls", "/home/ubuntu/USER_SKKU/leeinsung/RL_team_project/input"]).decode("utf8"))
 
 #######################################################################
-#init_notebook_mode()  #쥬피터 노트북 모드 켜기.. (필요?)
-
-#data = pd.read_csv("/home/ubuntu/USER_SKKU/leeinsung/RL_team_project/input/Data/Stocks/a.us.txt")
-################## 상대 경로
+#init_notebook_mode()  #쥬피터 노트북 모드 켜기 
+ 
+##################  
 # 임시로 절대 경로.. 지정
 # 임의의 주식 데이터 가져 오기.
 data = pd.read_csv("/home/ubuntu/USER_SKKU/leeinsung/RL_team_project/input/Data/Stocks/aapl.us.txt")  
